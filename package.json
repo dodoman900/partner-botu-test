@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "node src/Base/bot.js"
+  },
+  "type": "commonjs",
+  "author": "memte.",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.22.0",
+    "dotenv": "^16.0.0",
+    "mongodb": "^6.19.0",
+    "mongoose": "^7.5.0",
+    "winston": "^3.17.0",
+    "lowdb": "^6.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.45.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
